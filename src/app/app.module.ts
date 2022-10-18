@@ -9,7 +9,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 
-
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent
@@ -19,8 +20,10 @@ import { LayoutModule } from './layout/layout.module';
     LayoutModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSidenavModule
-    
+    MatSidenavModule,
+    MatCardModule,
+    MatButtonModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

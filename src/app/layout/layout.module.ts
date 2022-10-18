@@ -7,7 +7,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -15,18 +15,20 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    
+
   ],
   imports: [
     CommonModule,
     MatListModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    MatCardModule
   ]
 })
 export class LayoutModule { }
