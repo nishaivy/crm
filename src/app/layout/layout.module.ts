@@ -14,7 +14,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    
   ],
   imports: [
     CommonModule,
